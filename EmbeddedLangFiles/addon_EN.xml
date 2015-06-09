@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<languages>
+  <language name="English" id="en">
+    <addon>
+      <openinnewtab>
+        <command>
+          <label>Open in new tab</label>
+          <tooltip>Opens in new tab</tooltip>
+        </command>
+      </openinnewtab>
+    </addon>
+  </language>
+</languages>
