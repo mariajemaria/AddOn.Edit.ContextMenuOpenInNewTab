@@ -8,17 +8,17 @@
     <owners>marija.jemuovic</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Adds a command to the page tree that opens the page public link in new tab.</description>
-    <copyright>Copyright © 2017</copyright>
+    <copyright>Copyright © 2018</copyright>
     <tags>EPiServerModulePackage EPiServer-UI</tags>
     <projectUrl>https://github.com/mariajemaria/AddOn.Edit.ContextMenuOpenInNewTab</projectUrl>
     <iconUrl>http://mariajemaria.net/sites/default/files/addon-open-in-new-tab.png</iconUrl>
     <licenseUrl>https://github.com/mariajemaria/AddOn.Edit.ContextMenuOpenInNewTab/blob/master/LICENSE.md</licenseUrl>
     <dependencies>
-      <dependency id="EPiServer.CMS.UI" version="[10.0,11)" />
+      <dependency id="EPiServer.CMS.UI" version="[11.1.0,12)" />
     </dependencies>
   </metadata>
   <files>
-    <file src="bin\$configuration$\AddOn.Edit.ContextMenuOpenInNewTab.dll" target="lib\net45\" />
+    <file src="bin\$configuration$\AddOn.Edit.ContextMenuOpenInNewTab.dll" target="lib\net461\" />
     <file src="bin\$configuration$\AddOn.Edit.ContextMenuOpenInNewTab.zip" target="content\modules\_protected\AddOn.Edit.ContextMenuOpenInNewTab\" />
   </files>
 </package>
