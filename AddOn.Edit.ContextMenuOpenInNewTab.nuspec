@@ -20,5 +20,7 @@
   <files>
     <file src="bin\$configuration$\AddOn.Edit.ContextMenuOpenInNewTab.dll" target="lib\net461\" />
     <file src="bin\$configuration$\AddOn.Edit.ContextMenuOpenInNewTab.zip" target="content\modules\_protected\AddOn.Edit.ContextMenuOpenInNewTab\" />
+    <file src="web.config.install.xdt" target="content" />
+    <file src="web.config.uninstall.xdt" target="content" />
   </files>
 </package>
